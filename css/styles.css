@@ -706,6 +706,11 @@ display: flex;
 display: -webkit-flex;
 }
 
+.portfolios {
+display: inline;
+display: -webkit-flex;
+}
+
 button:focus {
 border: none;
 outline: none;
@@ -755,6 +760,29 @@ transform: scale(1,1);
 transition: all 0.3s ease;
 }
 
+.button3 {
+height: 60px;
+margin-top: 20px;
+margin-right: 15px;
+padding: 0px 16px;
+border: none;
+font-size: 21px;
+font-weight: 700;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+color: rgba(255, 255, 255, 1);
+background: rgba(0, 0, 0, 0.6);;
+display: flex;
+display: -webkit-flex;
+align-items: center;
+-webkit-align-items:  center;
+justify-content: center;
+-webkit-justify-content: center;
+border-radius: 30px;
+transform: scale(1,1);
+transition: all 0.3s ease;
+}
+
 .button1:hover {
 transform: scale(1.1,1.1);
 background-color: rgba(0, 0, 0, 0.8);
@@ -762,6 +790,12 @@ color: rgba(255, 255, 255, 1);
 }
 
 .button2:hover {
+transform: scale(1.1,1.1);
+background-color: rgba(0, 0, 0, 0.8);
+color: rgba(255, 255, 255, 1);
+}
+
+.button3:hover {
 transform: scale(1.1,1.1);
 background-color: rgba(0, 0, 0, 0.8);
 color: rgba(255, 255, 255, 1);
