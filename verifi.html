@@ -31,37 +31,53 @@
 					<div class="project-title">Verifi</div>
 					<div class="weblink"><a href="http://verifi.ng/" class="hoverline" target="_blank">Visit website</a></div>
 					<div class="project-text-title">Role</div>
-					<div class="project-text">Product Design and Strategy (Thanks to Ife, for being the hacking our designs to reality & to Bimbo, for translating mockups to high fidelity UIs)</div>
+					<div class="project-text">Product Design and Strategy. I led the product design team through design sprints, user research and tests, and collaboration with the engineering team. Special thanks to Ife, for leading the charge of coding our designs to reality & to Bimbo, for translating our mockups to high fidelity UIs</div>
 					<div class="project-text-title">Overview</div>
-					<div class="project-text"><p>Pay by Verifi is a payroll application to allow HR/Accountants manage their payrolls and automate their salary payments.</p>
-<p>HRs of small-medium businesses hate the on-boarding process for their staff whenever they switch payroll SaaS. Also, accountants wasted time completing payroll runs each month with because too many bottlenecks within the process. For example, 80% of small business accountants were sending exported Excel sheets from their payroll applications attached to an authorisation letter to their banks to complete payroll runs.</p>
-<p>The product goal was to solve these user problems while providing the standard payroll experience.</p></div>
+					<div class="project-text"><p>Pay by Verifi is a payroll application that allows HR/Accountants manage their payrolls and automate their salary payments.</p>
+<p>HRs of small-medium businesses hate the on-boarding process for their staff whenever they switch payroll SaaS. Also, accountants waste time completing payroll runs each month because there are too many bottlenecks caused by government regulations. For example, 80% of small business accountants send exported Excel sheets from their payroll SaaS/Excel along with an attached authorisation letter to their banks as part of the process to complete payroll runs.</p>
+<p>The product goal was to solve these user problems while guaranteeing that payrolls are not disrupted by the new solution.</p></div>
 				</div>
 
 					<div class="col-md-8 col-md-offset-2">
-						<img src="images/verifi/verifi.jpg" class="img-responsive image-mb image-mt">
+						<img src="images/verifi/20150730_132128.png" class="img-responsive image-mb image-mt">
 					</div>
 						
 					<div class="col-md-8 col-md-offset-2">
 						<div class="project-text-title">Process</div>
 						<div class="project-text"><p>
-For the HRs, we interviewed a set of HRs and found that most payroll applications required them to export an Excel file, fill in the data according to a certain data structure and then re-upload this file. Most HRs either did not have all the data fields, had the data as a physical copy or found the process of copying and pasting data lines tedious.</p>
-<p>After some brainstorming,my team and I decided to run the following A/B test.</p>
+My team and I decided to unpack all the problems first by listing them all out, interviewing two groups of 5 accountants+HRs, and taking this feedback to help with our solution design. For the HRs, we found that most payroll applications required them to export an Excel file, fill in the data according to a certain prescribed structure and then re-upload this file. Most HRs either did not have all the data fields esily accessible, had the data as a physical copy or found the process of copying and pasting data lines tedious. They had resorted to handing this task to junior employees who solved this problem by re-interviewing most of the employees to complete their profiles.</p>
+<p>After some brainstorming, my team and I decided to run the following A/B test.</p>
 <p>For the HRs, we decided to test;
 <ul style="list-style-type:circle">
   <li>A test: HRs bulk uploading employee records</li>
   <li>B test: HRs sending an invite to employees to complete personal details</li>
-  </ul></p>
-<p>The process completion rates were higher for B test and so we moved forward with it and refined this iteration further.</p></div>
-</div>
-<div class="col-md-8 col-md-offset-2">
+  </ul> 
 						<img src="images/verifi/2017-11-23_1327.png" class="img-responsive image-mb image-mt">
+
+The logic behind the B test was based on the observation of what the junior employees did to solve the problem- going to meet the employees to complete their details, details which the employees readily had.</p>
+<p>The outcome of the test showed that the onboarding completion metrics were quicker for the B test, indicating that this was a possible solution. We decided to iterate on B and improve the experience.</p></div>
+
+						<img src="images/verifi/hr.jpg" class="img-responsive image-mb image-mt">
+
 					</div>
 <div class="col-md-8 col-md-offset-2">
 <div class="project-text">
-<p>For the accountants, the numerous fraud checks and regulatory agencies had added many inefficiencies to the process of company to employee fund transfer (a monthly task). For example, after sending the payroll file and authorisation letter to the bank, accountants had to still call the account officers at the bank to speed up.</p>
-<p>Though we were limited by the Central Bank's rules on bank transactions, by shadowing the stakeholders involved in the process we were able to observe loop holes that we could capitalise on. This process showed us that even though the process of connecting company accounts to the payroll was tedious, there was a less complicated workaround- using comapny bank cards!</p>
-<p>To reduce the length of the process, we built an MVP that allowed accountants request for bank cards, add bank cards and raise their transfer limits without ever leaving their seats. And this was a one time activity. While not perfect, this allowed accountants to cutout the bank officers every month they wanted to run payroll.</p></div>
+<p>For the accountants, the numerous fraud checks and regulatory agencies had added many inefficiencies to the process of company to employee salary payments (a monthly task). For example, after sending the payroll file and authorisation letter to the bank, accountants had to still call the account officers at the bank to speed up.</p>
+<p>Although we were limited by the Central Bank's rules on bank transactions in how much of the process we could change, by shadowing the stakeholders involved in the process we were able to observe loop holes that we could capitalise on to improve the user experience. One such loophole was the ease with which company bank cards could be acquired (compared to linking a company account to a SaaS). There were still isses with this process:
+<ul style="list-style-type:circle">
+  <li>You had to get approval with your CEO of your company to request a bank card.</li>
+  <li>You had to go to the bank to get the card.</li>
+  <li>The default limit on cards was low.</li>
+  </ul>However, all these happened once in the entire lifecycle of the account.</p>
+<p>To reduce the length of the process, we built an MVP that;
+<ul style="list-style-type:circle">
+  <li>incoporates card request in the onboarding flow.</li>
+  <li>Drafts and sends the required documents to the relevant persons.</li>
+  <li>And supports the account to raise card limits.</li>
+  </ul> While not perfect, this allowed accountants to cutout the recurrent interactions with bank officers every month, and also reduced the number of steps to link their bank accounts to their payroll SaaS.</p>
+						<img src="images/verifi/accounts.jpg" class="img-responsive image-mb image-mt">
+
+</div>
 					</div>
 
 					<div class="col-md-4 col-md-offset-4">
